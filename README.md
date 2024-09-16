@@ -4,5 +4,5 @@ __Defect Hunter__ es un sistema de gestión de pruebas y control de calidad dise
 
 ## Dev
 1. Clonar el repositorio
-2. Instalar [https://pnpm.io/installation](pnpm).
+2. Instalar [pnpm](https://pnpm.io/installation).
 3. Guiarse de los README de frontend y backend.
