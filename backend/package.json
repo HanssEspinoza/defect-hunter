@@ -1,5 +1,25 @@
 {
-	"devDependencies": {
-		"prisma": "^5.19.1"
-	}
+    "name": "defect-hunter-api",
+    "version": "1.0.0",
+    "description": "Project Defect Hunter",
+    "main": "index.ts",
+    "scripts": {
+        "dev": "tsnd --respawn --clear src/app.ts",
+        "build": "rimraf ./dist && tsc",
+        "start": "npm run build && node dist/app.js"
+    },
+    "keywords": [],
+    "author": "Hanss Espinoza",
+    "dependencies": {
+        "express": "^4.21.0"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.21",
+        "@types/node": "^22.5.5",
+        "prisma": "^5.19.1",
+        "rimraf": "^6.0.1",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^5.6.2"
+    },
+    "license": "ISC"
 }
